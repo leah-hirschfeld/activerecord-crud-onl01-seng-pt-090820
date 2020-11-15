@@ -74,7 +74,7 @@ end
 def can_update_using_update_method
   # Update movie title to "Wat, huh?"
   Movie.create(title: "Wat?")
-  __
+  movie = Moive.find_by(title: "Wat?")
   __
 end
 
